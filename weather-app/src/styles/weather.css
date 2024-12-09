@@ -1,0 +1,137 @@
+.weather-dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding: 60px;
+  background-color: #f6f8fa;
+  font-family: "Arial", sans-serif;
+}
+
+.weather-dashboard {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 1200px;
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.left-panel,
+.right-panel {
+  padding: 30px;
+}
+
+.left-panel {
+  flex: 2;
+  border-right: 1px solid #ddd;
+}
+
+.right-panel {
+  flex: 1;
+}
+
+.location-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.weather-card {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.weather-card h1 {
+  font-size: 6rem;
+  margin: 0;
+  color: #333;
+}
+
+.weather-card p {
+  font-size: 1.5rem;
+  color: #777;
+}
+
+.weather-card div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  color: #777;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.forecast-day-card {
+  text-align: center;
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.greeting-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.greeting-header h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.greeting-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.hourly-forecast {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.hourly-forecast-card {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.hourly-forecast-card p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.hourly-forecast-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  color: #777;
+}
+
+.weather-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+}
